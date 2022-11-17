@@ -10,14 +10,20 @@
 		"64": "images/icon-64.png",
 		"128": "images/icon-128.png"
 	},
+	"web_accessible_resources": [
+		{
+			"resources": ["src/wordlist.txt"],
+			"matches": ["https://*/*", "http://*/*"]
+		}
+	],
 	"content_scripts": [
 		{
+			"run_at": "document_idle",
 			"js": [
 				"src/main.js"
 			],
 			"matches": [
-				"https://developer.chrome.com/docs/extensions/*",
-				"https://developer.chrome.com/docs/webstore/*"
+				"<all_urls>"
 			]
 		}
 	]
