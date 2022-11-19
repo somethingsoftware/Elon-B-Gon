@@ -10,7 +10,6 @@ function callback(timeouts, callbackInterval = 500, KeyWords) {
 
 /* Check for Musk */
 function NoMusk(KeyWords) {
-	console.log("NoMusk!");
 	let DOM = document;
 	const check = DOM.body.innerText;
 	/* Search for Elon refs in the DOM */
@@ -21,6 +20,7 @@ function NoMusk(KeyWords) {
 	});
 	if (Musky) {
 		/* We have some musky business */
+		console.log("Musk detected");
 	}
 }
 
@@ -29,7 +29,7 @@ async function readExtentionFile(fileName) {
 	return (await (await fetch(chrome.runtime.getURL(fileName))).text()).split("\n").filter((word) => word.length > 0);
 }
 
-async function ElonBgon_main() {
+async function ElonBgonMain() {
 	/* DOM Mutation Observer config for lazy loading */
 	const DOMconfig = { attributes: false, childList: true, subtree: true };
 	const callbackInterval = 500;
@@ -40,4 +40,4 @@ async function ElonBgon_main() {
 	observer.observe(document.body, DOMconfig);
 }
 
-ElonBgon_main();
+ElonBgonMain();
