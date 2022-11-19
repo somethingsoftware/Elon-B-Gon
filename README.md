@@ -9,9 +9,9 @@ It will also replace text relating to him with jokes.
 
     - [ ] so "Elon files for bankruptcy over twitter crash" becomes something like "'There's definitely water here look around you' files for bankruptcy over twitter crash"
 
-2. [ ] the extension will read reddit threads that are images for captions / translations for blind redditors, if one cannot be found look for the words in reddit's post body/comments.
+2. [ ] The extension will read reddit threads that are images for captions / translations for blind redditors, if one cannot be found look for the words in reddit's post body/comments.
 
-3. [ ] replace brute force regex search with a benchmarked search algorithm made for text replacement (gh copilot thinks tries might be a good option)
+3. [ ] Replace brute force regex search with a benchmarked search algorithm made for text replacement (gh copilot thinks tries might be a good option)
 
 ### Name Choice
 
