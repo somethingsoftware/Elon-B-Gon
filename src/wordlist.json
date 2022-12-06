@@ -1,0 +1,217 @@
+[
+	{
+		"search": [
+			"elon"
+		],
+		"replace": [
+			"Shmelon!"
+		]
+	},
+	{
+		"search": [
+			"spacex"
+		],
+		"replace": [
+			"Generic space company"
+		]
+	},
+	{
+		"search": [
+			"tesla"
+		],
+		"replace": [
+			"Generic electric car company"
+		]
+	},
+	{
+		"search": [
+			"elon reeve"
+		],
+		"replace": [
+			"Shmelon beelon"
+		]
+	},
+	{
+		"search": [
+			"elon reeve musk"
+		],
+		"replace": [
+			"Shmelon Beelon Tusk!"
+		]
+	},
+	{
+		"search": [
+			"elon musk"
+		],
+		"replace": [
+			"Shmelon tusk!"
+		]
+	},
+	{
+		"search": [
+			"starlink"
+		],
+		"replace": [
+			"Generic satellite internet company"
+		]
+	},
+	{
+		"search": [
+			"twitter acquisition"
+		],
+		"replace": [
+			"Generic social media company takeover"
+		]
+	},
+	{
+		"search": [
+			"x.com"
+		],
+		"replace": [
+			"Generic online payment company"
+		]
+	},
+	{
+		"search": [
+			"zip2"
+		],
+		"replace": [
+			"Generic online communication company"
+		]
+	},
+	{
+		"search": [
+			"roadster"
+		],
+		"replace": [
+			"Generic car scandal",
+			"Generic sports car"
+		]
+	},
+	{
+		"search": [
+			"solarcity"
+		],
+		"replace": [
+			"Stupind use of solar panels in a city"
+		]
+	},
+	{
+		"search": [
+			"boring test tunnel"
+		],
+		"replace": [
+			"waste of money to build a tunnel"
+		]
+	},
+	{
+		"search": [
+			"hyperloop"
+		],
+		"replace": [
+			"a huge waste of money to build a tunnel"
+		]
+	},
+	{
+		"search": [
+			"tesla energy"
+		],
+		"replace": [
+			"Generic electric company"
+		]
+	},
+	{
+		"search": [
+			"neuralink"
+		],
+		"replace": [
+			"Generic brain implant company",
+			"\"Big brother\" Brain implant company",
+			"Brain implant link"
+		]
+	},
+	{
+		"search": [
+			"musk foundation"
+		],
+		"replace": [
+			"Generic mal intent charity"
+		]
+	},
+	{
+		"search": [
+			"falcon 9"
+		],
+		"replace": [
+			"Generic space rocket"
+		]
+	},
+	{
+		"search": [
+			"xæa-12",
+			"x æ a-12",
+			"xaea-12",
+			"x ae a-12"
+		],
+		"replace": [
+			"celebrity's badly named kid"
+		]
+	},
+	{
+		"search": [
+			"twitter slow"
+		],
+		"replace": [
+			"Generic social media company slow"
+		]
+	},
+	{
+		"search": [
+			"twitter broken"
+		],
+		"replace": [
+			"Generic social media company is broken"
+		]
+	},
+	{
+		"search": [
+			"twitter fake"
+		],
+		"replace": [
+			"social media fake news"
+		]
+	},
+	{
+		"search": [
+			"twitter impersonations"
+		],
+		"replace": [
+			"social media impersonations"
+		]
+	},
+	{
+		"search": [
+			"twiter blue"
+		],
+		"replace": [
+			"social media makes impersonations easier",
+			"social media makes bad decisions"
+		]
+	},
+	{
+		"search": [
+			"twiter engineer"
+		],
+		"replace": [
+			"social media engineer"
+		]
+	},
+	{
+		"search": [
+			"twitter parody"
+		],
+		"replace": [
+			"social media parody"
+		]
+	}
+]
