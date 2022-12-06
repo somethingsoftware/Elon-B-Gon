@@ -26,14 +26,14 @@ function NoMusk(KeyWords) {
 
 /* Read files from extention filesystem */
 async function readExtentionFile(fileName) {
-	return (await (await fetch(chrome.runtime.getURL(fileName))).text()).split("\n").filter((word) => word.length > 0);
+	return await (await fetch(chrome.runtime.getURL(fileName))).text();
 }
 
 async function ElonBgonMain() {
 	/* DOM Mutation Observer config for lazy loading */
 	const DOMconfig = { attributes: false, childList: true, subtree: true };
 	const callbackInterval = 500;
-	const KeyWords = await readExtentionFile("src/wordlist.txt");;
+	const KeyWords = await readExtentionFile("src/wordlist.json");;
 	let timeouts;
 	/* Call calback clojure with referenced timeouts varable every time the DOM updates */
 	const observer = new MutationObserver(callback(timeouts, callbackInterval, KeyWords));
