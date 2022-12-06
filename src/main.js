@@ -1,10 +1,10 @@
 function callback(timeouts, callbackInterval = 500, KeyWords) {
-	/* Calback clojure waiting for the page to stop lazy loading */
+	/* Calback closure waiting for the page to stop lazy loading */
 	return () => {
 		if (timeouts)
 			window.clearTimeout(timeouts);
 		/* If (callbackInterval)ms passed the page has finished loading for now */
-		timeouts = window.setTimeout(() => { NoMusk(KeyWords) }, 500);
+		timeouts = window.setTimeout(() => { NoMusk(KeyWords) }, callbackInterval);
 	}
 }
 
