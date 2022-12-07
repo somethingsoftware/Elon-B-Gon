@@ -12,7 +12,7 @@
 	},
 	"web_accessible_resources": [
 		{
-			"resources": ["src/wordlist.txt"],
+			"resources": ["src/wordlist.json"],
 			"matches": ["https://*/*", "http://*/*"]
 		}
 	],
